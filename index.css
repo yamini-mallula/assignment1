@@ -1,0 +1,27 @@
+nav ul{
+    background-color:lightcoral;  
+ }
+ section h2 {   
+      color: lightseagreen;                     
+ }
+ .paragraphs{
+     border: 10px solid blueviolet;   
+ }
+ .links{
+      font-weight: bold;                
+ }
+ .paragraphs p:nth-child(3) {            
+     font-size: 20px;                  
+ }
+ nav ul li{
+     margin-bottom: 30px;              
+ }
+ .links a:nth-child(1){
+        color:crimson;               
+ }
+ section{
+     padding: 10px;
+ }
+ footer{
+     border: 10px solid palevioletred;
+ }
