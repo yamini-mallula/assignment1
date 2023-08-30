@@ -1,0 +1,64 @@
+nav a:hover{
+    color:limegreen;
+}
+nav a:active{
+    background-color: deeppink;
+}
+nav a :link{
+    color:cyan;
+}
+.links a:visited{
+    font-style: italic;
+}
+h2:hover{
+    background-color: darkgreen;
+}
+h2:active{
+    text-decoration: underline;
+}
+.links a:last-child{
+    color:darkred;
+}
+nav ul li:nth-child(odd){
+    background-color:dodgerblue;
+}
+.paragraphs p:nth-child(3){
+    color: rgb(182, 165, 10);
+}
+input:focus{
+    border: 10px solid royalblue;
+}
+
+
+
+section p::first-letter{
+    font-size: larger;
+    color:darkcyan;
+}
+header h1{
+    font-style: italic;
+}
+main section h2::before{
+    content:open-quote;
+}
+nav ul li::after{
+    content: "*";
+}
+.paragraphs p::selection{
+    background-color:cadetblue;
+}
+.paragraphs p:nth-child(1){
+    color: green;
+}
+nav a::before{
+    content: '^';
+}
+nav ul li:nth-child(4):after{
+    content: '()';
+}
+nav ul::marker{
+    font-style:italic;
+}
+footer ::after{
+    content:close-quote;
+}
